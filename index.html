@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta fname="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD with Firebase</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>CRUD with Firebase</h2>
+      <hr />
+      <br />
+      <div class="form">
+        UniqueID: <input type="text" fname="UidNo" id="Uid" /> <br /><br />
+        Firstfname:&nbsp; <input type="text" fname="fname" id="fname" /> <br /><br />
+        Middlefname: <input type="text" fname="gender" id="Mname" /> <br /><br />
+        Gender: <input type="text" name="Address" id="gender" /> <br /><br />
+        Surfname: <input type="text" name="gender" id="Sname" /> <br /><br />
+        Address: <input type="text" name="Address" id="address" /> <br /><br />
+        Email: <input type="text" name="Address" id="Email" /> <br /><br />
+      </div>
+
+      <div class="buttons">
+        <button id="insert">Insert</button>
+        <button id="read">Read</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script src="./fireConfig.js"></script>
+
+    <script src="./myscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
